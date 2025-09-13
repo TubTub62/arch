@@ -40,3 +40,20 @@
 9/13/2025, 3:48:33 PM GMT+2 9: webContents.destroyed web1
 9/13/2025, 3:48:33 PM GMT+2 10: window.closed win1
 9/13/2025, 3:48:36 PM GMT+2 11: before-quit
+9/13/2025, 4:32:45 PM GMT+2 0: 
+
+----------------------------------------------
+9/13/2025, 4:32:45 PM GMT+2 1: Discord starting: {"releaseChannel":"stable","version":"0.0.109"}, modulepath: /home/archrat/.config/discord/0.0.109/modules
+9/13/2025, 4:32:45 PM GMT+2 2: ✅ webContents.created web1 ""
+9/13/2025, 4:32:45 PM GMT+2 3: ✅ window.created win1 "discord"
+9/13/2025, 4:32:46 PM GMT+2 4: ✅ webContents.did-finish-load web1
+9/13/2025, 4:32:46 PM GMT+2 5: ✅ webContents.created web2 ""
+9/13/2025, 4:32:46 PM GMT+2 6: ✅ window.created win2 "Discord"
+9/13/2025, 4:32:48 PM GMT+2 7: ✅ webContents.did-finish-load web2
+9/13/2025, 4:32:50 PM GMT+2 8: window.close win1
+9/13/2025, 4:32:50 PM GMT+2 9: webContents.destroyed web1
+9/13/2025, 4:32:50 PM GMT+2 10: window.closed win1
+9/13/2025, 4:32:53 PM GMT+2 11: before-quit
+9/13/2025, 4:32:53 PM GMT+2 12: window.close win2
+9/13/2025, 4:32:53 PM GMT+2 13: webContents.destroyed web2
+9/13/2025, 4:32:53 PM GMT+2 14: window.closed win2

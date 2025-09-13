@@ -14402,3 +14402,126 @@ Possible causes: the network is offline, Origin is not allowed by Access-Control
 [2025-09-13 15:48:36.753] [warn]  Window state not initialized window-1
 [2025-09-13 15:48:36.753] [warn]  Window state not initialized window-1
 [2025-09-13 15:48:36.753] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:46.244] [info]  DiscordSplash.signalReady
+[2025-09-13 16:32:46.284] [info]  DiscordSplash.onStateUpdate: {"status":"checking-for-updates"}
+[2025-09-13 16:32:46.285] [info]  Splash.onStateUpdate: {"status":"checking-for-updates"}
+[2025-09-13 16:32:46.800] [info]  DiscordSplash.onStateUpdate: {"status":"launching"}
+[2025-09-13 16:32:46.801] [info]  Splash.onStateUpdate: {"status":"launching"}
+[2025-09-13 16:32:47.243] [info]  Splash.updateCountdownSeconds: undefined
+[2025-09-13 16:32:48.100] [info]  [FAST CONNECT] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream, encoding: etf, version: 9
+[2025-09-13 16:32:48.243] [info]  Splash.updateCountdownSeconds: undefined
+[2025-09-13 16:32:48.329] [info]  [FAST CONNECT] connected in 227ms
+[2025-09-13 16:32:48.670] [info]  [libdiscore] [experiment_manager] Loaded experiments from cache
+[2025-09-13 16:32:48.947] [info]  [KvStore] GuildStore initialized in mode: typescript
+[2025-09-13 16:32:49.070] [info]  [KkvStore] GuildRoleStore initialized in mode: typescript
+[2025-09-13 16:32:49.209] [info]  Initializing voice engine with audio subsystem: standard
+[2025-09-13 16:32:49.243] [info]  Splash.updateCountdownSeconds: undefined
+[2025-09-13 16:32:49.661] [info]  [default] [BUILD INFO] Release Channel: stable, Build Number: 444231, Version Hash: 98806312f63eeed5524deda3718da1e37269de93
+[2025-09-13 16:32:49.952] [info]  [KvStore] NoteStore initialized in mode: typescript
+[2025-09-13 16:32:49.957] [warn]  [CloudSyncUtils] CloudSync is not supported on this platform
+[2025-09-13 16:32:50.007] [info]  [default] [NATIVE INFO] host 0.0.109, modules: discord_desktop_core: 1, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 1, discord_voice: 1, discord_zstd: 1, discord_krisp: 1, discord_game_utils: 1, discord_rpc: 1, build: null
+[2025-09-13 16:32:50.017] [info]  [libdiscore] The answer for life the universe and everything is: 42
+[2025-09-13 16:32:50.040] [error] [Spellchecker] sh is not a valid locale.
+[2025-09-13 16:32:50.683] [info]  [Spellchecker] Switching to en-US (available)
+[2025-09-13 16:32:51.256] [info]  [KeybindsStore] Default overlay keybind is unsupported [object Object]
+[2025-09-13 16:32:51.258] [info]  [KeybindsStore] Default overlay keybind is unsupported [object Object]
+[2025-09-13 16:32:51.353] [info]  [KeybindsStore] Default overlay keybind is unsupported [object Object]
+[2025-09-13 16:32:51.354] [info]  [KeybindsStore] Default overlay keybind is unsupported [object Object]
+[2025-09-13 16:32:51.361] [info]  [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2025-09-13 16:32:51.361] [info]  [GatewaySocket] [FAST CONNECT] successfully took over websocket, state: [object Object]
+[2025-09-13 16:32:51.362] [info]  [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 0 ms
+[2025-09-13 16:32:51.413] [info]  [RPCServer:WSS] Starting on 6463
+[2025-09-13 16:32:51.417] [info]  [RPCServer:IPC] Starting on /run/user/1000/discord-ipc-0
+[2025-09-13 16:32:52.534] [info]  [GatewaySocket] [READY] took 1172ms, as c94ab4f7cf66010ba28b45d37ec6f18b
+[2025-09-13 16:32:52.570] [info]  [Flux] Dispatching CONNECTION_OPEN
+[2025-09-13 16:32:52.574] [info]  [DatabaseManager] removing database (user: 165540085809283072, database: undefined)
+[2025-09-13 16:32:52.587] [warn]  [NativeDispatchUtils] Tried getting Dispatch instance before instantiated
+[2025-09-13 16:32:52.601] [info]  [Spotify] WS Connecting
+[2025-09-13 16:32:52.603] [info]  [Spotify] Added account: 1185095470
+[2025-09-13 16:32:52.607] [info]  [KeybindsStore] Default overlay keybind is unsupported [object Object]
+[2025-09-13 16:32:53.129] [info]  [GatewaySocket] [READY_SUPPLEMENTAL] took 1768ms
+[2025-09-13 16:32:53.303] [info]  [Spotify] WS Connected
+[2025-09-13 16:32:53.425] [info]  [Spotify] Devices updated for 1185095470: [object Object]
+[2025-09-13 16:32:53.426] [info]  [Spotify] Profile updated for 1185095470: isPremium = true
+[2025-09-13 16:32:53.513] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.513] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.514] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.514] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.514] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.515] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.515] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.515] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.516] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.516] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.516] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.517] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.517] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.517] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.517] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.518] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.518] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.518] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.519] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.519] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.519] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.519] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.520] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.520] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.520] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.520] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.520] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.521] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.521] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.521] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.521] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.521] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.521] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.522] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.522] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.522] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.522] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.522] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.522] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.523] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.523] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.523] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.523] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.523] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.523] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.523] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.524] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.524] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.524] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.524] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.524] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.524] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.525] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.525] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.525] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.525] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.525] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.525] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.526] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.526] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.526] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.526] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.526] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.526] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.526] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.527] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.527] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.527] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.527] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.527] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.527] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.528] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.528] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.528] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.528] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.528] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.528] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.529] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.529] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.529] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.529] [warn]  Window state not initialized window-1
+[2025-09-13 16:32:53.529] [warn]  Window state not initialized window-1

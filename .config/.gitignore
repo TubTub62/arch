@@ -1,0 +1,13 @@
+
+
+*
+
+!.gitignore
+
+!/nvim
+
+!/tmux
+
+!/waybar
+
+!/hypr
