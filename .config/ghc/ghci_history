@@ -1,0 +1,25 @@
+:q
+eval envEmpty yComb
+yComb
+:m *APL.Eval_Tests 
+yComb
+:q
+ls
+c
+:q
+:t Val
+Val
+eval
+:t evalHelper
+:q
+:load src/APL/Eval.hs 
+:q
+:load Eval.hs :q
+:load Eval.hs 
+:q
+simpleDiv 6 2
+simple 6 2
+simple 1 5
+:load test.hs 
+:q
+:set -Wall

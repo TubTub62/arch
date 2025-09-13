@@ -1,0 +1,42 @@
+9/11/2025, 7:16:58 PM GMT+2 0: 
+
+----------------------------------------------
+9/11/2025, 7:16:58 PM GMT+2 1: Discord starting: {"releaseChannel":"stable","version":"0.0.109"}, modulepath: /home/archrat/.config/discord/0.0.109/modules
+9/11/2025, 7:16:58 PM GMT+2 2: ✅ webContents.created web1 ""
+9/11/2025, 7:16:58 PM GMT+2 3: ✅ window.created win1 "discord"
+9/11/2025, 7:16:58 PM GMT+2 4: ✅ webContents.did-finish-load web1
+9/11/2025, 7:17:07 PM GMT+2 5: ✅ webContents.created web2 ""
+9/11/2025, 7:17:07 PM GMT+2 6: ✅ window.created win2 "Discord"
+9/11/2025, 7:17:09 PM GMT+2 7: ✅ webContents.did-finish-load web2
+9/11/2025, 7:17:12 PM GMT+2 8: window.close win1
+9/11/2025, 7:17:12 PM GMT+2 9: webContents.destroyed web1
+9/11/2025, 7:17:12 PM GMT+2 10: window.closed win1
+9/11/2025, 7:17:18 PM GMT+2 11: before-quit
+9/12/2025, 9:05:42 AM GMT+2 0: 
+
+----------------------------------------------
+9/12/2025, 9:05:42 AM GMT+2 1: Discord starting: {"releaseChannel":"stable","version":"0.0.109"}, modulepath: /home/archrat/.config/discord/0.0.109/modules
+9/12/2025, 9:05:42 AM GMT+2 2: ✅ webContents.created web1 ""
+9/12/2025, 9:05:42 AM GMT+2 3: ✅ window.created win1 "discord"
+9/12/2025, 9:05:43 AM GMT+2 4: ✅ webContents.did-finish-load web1
+9/12/2025, 9:05:43 AM GMT+2 5: ✅ webContents.created web2 ""
+9/12/2025, 9:05:43 AM GMT+2 6: ✅ window.created win2 "Discord"
+9/12/2025, 9:05:45 AM GMT+2 7: ✅ webContents.did-finish-load web2
+9/12/2025, 9:05:47 AM GMT+2 8: window.close win1
+9/12/2025, 9:05:47 AM GMT+2 9: webContents.destroyed web1
+9/12/2025, 9:05:47 AM GMT+2 10: window.closed win1
+9/12/2025, 9:05:54 AM GMT+2 11: before-quit
+9/13/2025, 3:48:28 PM GMT+2 0: 
+
+----------------------------------------------
+9/13/2025, 3:48:28 PM GMT+2 1: Discord starting: {"releaseChannel":"stable","version":"0.0.109"}, modulepath: /home/archrat/.config/discord/0.0.109/modules
+9/13/2025, 3:48:28 PM GMT+2 2: ✅ webContents.created web1 ""
+9/13/2025, 3:48:28 PM GMT+2 3: ✅ window.created win1 "discord"
+9/13/2025, 3:48:28 PM GMT+2 4: ✅ webContents.did-finish-load web1
+9/13/2025, 3:48:29 PM GMT+2 5: ✅ webContents.created web2 ""
+9/13/2025, 3:48:29 PM GMT+2 6: ✅ window.created win2 "Discord"
+9/13/2025, 3:48:31 PM GMT+2 7: ✅ webContents.did-finish-load web2
+9/13/2025, 3:48:33 PM GMT+2 8: window.close win1
+9/13/2025, 3:48:33 PM GMT+2 9: webContents.destroyed web1
+9/13/2025, 3:48:33 PM GMT+2 10: window.closed win1
+9/13/2025, 3:48:36 PM GMT+2 11: before-quit
