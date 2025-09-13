@@ -6,7 +6,6 @@
 
 !.gitignore
 
-!/nvim
 
 !/tmux
 
