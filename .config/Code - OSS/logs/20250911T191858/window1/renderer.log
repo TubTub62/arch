@@ -1,5 +1,0 @@
-2025-09-11 19:19:00.655 [info] Started local extension host with pid 2508.
-2025-09-11 19:19:00.804 [info] Started initializing default profile extensions in extensions installation folder. file:///home/archrat/.vscode-oss/extensions
-2025-09-11 19:19:00.806 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
-2025-09-11 19:19:01.214 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/archrat/.vscode-oss/extensions
-2025-09-11 19:19:04.073 [info] [perf] Render performance baseline is 51ms
