@@ -14,5 +14,4 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 export XKB_DEFAULT_OPTIONS=caps:escape
-alias config='/usr/bin/git --git-dir=/home/archrat/.cfg/ --work-tree=/home/archrat'
-alias config='/usr/bin/git --git-dir=/home/archrat/.cfg/ --work-tree=/home/archrat'
+alias config='/usr/bin/git --git-dir=/home/kangaroo/.cfg/ --work-tree=/home/kangaroo'
