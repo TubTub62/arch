@@ -61,6 +61,7 @@ vim.lsp.enable({
 	"lualsp",
 	"hls",
     "pythonlsp",
+    "clangd",
 })
 
 

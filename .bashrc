@@ -13,5 +13,9 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+#if [ -f ~/.bash_profile ]; then
+    #. ~/.bash_profile
+#fi
+
 export XKB_DEFAULT_OPTIONS=caps:escape
 alias config='/usr/bin/git --git-dir=/home/kangaroo/.cfg/ --work-tree=/home/kangaroo'
