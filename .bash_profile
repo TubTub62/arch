@@ -4,8 +4,7 @@
 
 #[[ -f ~/.bashrc ]] && . ~/.bashrc
 
-export PATH="/home/kangaroo/.ghcup/bin:$PATH"
-
+export PATH="${HOME}/.ghcup/bin:$PATH"
 
 # write content below into ~/.profile, or ~/.bash_profile
 

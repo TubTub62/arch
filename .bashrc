@@ -18,4 +18,4 @@ fi
 #fi
 
 export XKB_DEFAULT_OPTIONS=caps:escape
-alias config='/usr/bin/git --git-dir=/home/kangaroo/.cfg/ --work-tree=/home/kangaroo'
+alias config='/usr/bin/git --git-dir=${HOME}/.cfg/ --work-tree=${HOME}/'
