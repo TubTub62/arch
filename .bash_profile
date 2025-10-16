@@ -6,6 +6,8 @@
 
 export PATH="${HOME}/.ghcup/bin:$PATH"
 
+export SUDO_EDITOR=/usr/bin/nvim
+
 # write content below into ~/.profile, or ~/.bash_profile
 
 # if running bash
