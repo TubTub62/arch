@@ -28,6 +28,7 @@
         "disk",
         "temperature",
         "clock",
+        "custom/khorshididate",
     ],
 
 
@@ -60,7 +61,7 @@
 
     "cpu": {
         "interval": 10,
-        "format": "CPU {}%",
+        "format": "CPU {usage}%",
         "max-length": 10,
         "format-alt-click": "click-right",
         "format-alt": " {usage}%",
@@ -88,7 +89,7 @@
 
     "temperature": {
         "thermal-zone": 1,
-        "format": "TEMP{temperatureC}°C",
+        "format": "TEMP {temperatureC}°C",
         "critical-threshold": 70,
         "format-critical": " {temperatureC}°C",
     },
