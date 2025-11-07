@@ -18,4 +18,3 @@ fi
 #fi
 
 export XKB_DEFAULT_OPTIONS=caps:escape
-alias config='/usr/bin/git --git-dir=${HOME}/.cfg/ --work-tree=${HOME}/'

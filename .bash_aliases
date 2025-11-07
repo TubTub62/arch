@@ -3,12 +3,12 @@
 alias sba="source ~/.bash_aliases"
 alias q="exit"
 alias c="clear"
-alias f="firefox &"
 alias p="poweroff"
 alias r="reboot"
-alias br="sudo service Bluetooth restart"
-alias u="pacman -Syu"
 
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+
+
+alias config='/usr/bin/git --git-dir=${HOME}/.cfg/ --work-tree=${HOME}/'
