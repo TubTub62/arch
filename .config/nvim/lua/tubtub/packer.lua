@@ -45,4 +45,6 @@ return require('packer').startup(function(use)
 
     use "rafamadriz/friendly-snippets"
 
+    use "https://github.com/neovim/nvim-lspconfig"
+
 end)

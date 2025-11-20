@@ -53,15 +53,18 @@ vim.api.nvim_create_autocmd('LspAttach', {
   end
 })
 
-
-
-
+vim.filetype.add({
+  extension = {
+    fut = "fut",
+  }
+})
 
 vim.lsp.enable({
 	"lualsp",
 	"hls",
     "pythonlsp",
     "clangd",
+    "fhlsp",
 })
 
 
