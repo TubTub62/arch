@@ -13,3 +13,5 @@
 !/waybar
 
 !/hypr
+
+nvim/plugin/packer_compiled.lua
