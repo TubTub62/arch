@@ -53,18 +53,22 @@ vim.api.nvim_create_autocmd('LspAttach', {
   end
 })
 
-vim.filetype.add({
-  extension = {
-    fut = "fut",
-  }
+vim.filetype.add({ extension = { fut = "fut" } })
+
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "fut",
+  callback = function()
+    vim.bo.commentstring = "-- %s"
+  end,
 })
 
 vim.lsp.enable({
 	"lualsp",
 	"hls",
-    "pythonlsp",
-    "clangd",
-    "fhlsp",
+    	"pyright",
+    	"clangd",
+    	"fhlsp",
+	"csharp_ls",
 })
 
 

@@ -36,7 +36,6 @@ return require('packer').startup(function(use)
         run = "make install_jsregexp"
     })
 
-    use( 'neovim/nvim-lspconfig')
     use( 'hrsh7th/cmp-nvim-lsp')
     use( 'hrsh7th/cmp-buffer')
     use( 'hrsh7th/cmp-path')
@@ -46,5 +45,7 @@ return require('packer').startup(function(use)
     use "rafamadriz/friendly-snippets"
 
     use "https://github.com/neovim/nvim-lspconfig"
+
+    use "https://github.com/tomtom/tcomment_vim"
 
 end)
