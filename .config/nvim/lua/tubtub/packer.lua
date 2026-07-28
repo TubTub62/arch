@@ -7,15 +7,15 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
-  use {
-	  'nvim-telescope/telescope.nvim', tag = '0.1.8',
-	  -- or                            , branch = '0.1.x',
-	  requires = { {'nvim-lua/plenary.nvim'} }
-  }
+  -- use {
+	--   'nvim-telescope/telescope.nvim', tag = '0.1.8',
+	--   -- or                            , branch = '0.1.x',
+	--   requires = { {'nvim-lua/plenary.nvim'} }
+  -- }
 
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
-  use('nvim-treesitter/playground')
+  --use('nvim-treesitter/playground')
 
   use "nvim-lua/plenary.nvim" -- don't forget to add this one if you don't have it yet!
   use {
@@ -47,5 +47,30 @@ return require('packer').startup(function(use)
     use "https://github.com/neovim/nvim-lspconfig"
 
     use "https://github.com/tomtom/tcomment_vim"
+
+    -- use "https://codeberg.org/comfysage/artio.nvim"
+    --use "https://github.com/junegunn/fzf.vim"
+
+    --use "https://github.com/ibhagwan/fzf-lua#installation"
+
+
+    use {
+      "ibhagwan/fzf-lua",
+      -- optional: for file icons
+      requires = { "nvim-tree/nvim-web-devicons" },
+      config = function()
+        require("fzf-lua").setup({})
+      end
+    }
+
+    use({ "elixir-tools/elixir-tools.nvim", tag = "stable", requires = { "nvim-lua/plenary.nvim" }})
+    --use({ "elixir-tools/elixir-tools.nvim", tag = "stable", requires = { "nvim-lua/plenary.nvim" }})
+
+
+
+
+
+
+
 
 end)

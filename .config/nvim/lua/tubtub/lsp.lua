@@ -62,6 +62,7 @@ vim.api.nvim_create_autocmd("FileType", {
   end,
 })
 
+
 vim.lsp.enable({
 	"lualsp",
 	"hls",
@@ -69,6 +70,9 @@ vim.lsp.enable({
     	"clangd",
     	"fhlsp",
 	"csharp_ls",
+    "fsharp_language_server",
+    "fsharp_test",
+    --"elixirls",
 })
 
 
