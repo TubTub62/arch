@@ -3,10 +3,12 @@ local ts = require('nvim-treesitter')
 -- Wait at most 30 seconds to finish installation.
 ts.install(
   {
-      'elixir', 'haskell',
+    'elixir', 'haskell',
     'lua', 'vim', 
     'markdown', 'markdown_inline',
     'json', 'yaml',
+    'python',
+    'c'
   },
   -- Do not print summary, as this will run at startup always, all the time.
   { summary = false }

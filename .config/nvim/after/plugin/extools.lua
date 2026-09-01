@@ -2,24 +2,24 @@ local elixir = require("elixir")
 local elixirls = require("elixir.elixirls")
 
 elixir.setup {
-  nextls = {
-    enable = false, -- defaults to false
-    port = 9000, -- connect via TCP with the given port. mutually exclusive with `cmd`. defaults to nil
-    cmd = "path/to/next-ls", -- path to the executable. mutually exclusive with `port`
-    spitfire = true, -- defaults to false
-    init_options = {
-      mix_env = "dev",
-      mix_target = "host",
-      experimental = {
-        completions = {
-          enable = false -- control if completions are enabled. defaults to false
-        }
-      }
-    },
-    on_attach = function(client, bufnr)
-      -- custom keybinds
-    end
-  },
+  -- nextls = {
+  --   enable = false, -- defaults to false
+  --   port = 9000, -- connect via TCP with the given port. mutually exclusive with `cmd`. defaults to nil
+  --   cmd = "path/to/next-ls", -- path to the executable. mutually exclusive with `port`
+  --   spitfire = true, -- defaults to false
+  --   init_options = {
+  --     mix_env = "dev",
+  --     mix_target = "host",
+  --     experimental = {
+  --       completions = {
+  --         enable = false -- control if completions are enabled. defaults to false
+  --       }
+  --     }
+  --   },
+  --   on_attach = function(client, bufnr)
+  --     -- custom keybinds
+  --   end
+  -- },
   
   elixirls = {
     -- specify a repository and branch
