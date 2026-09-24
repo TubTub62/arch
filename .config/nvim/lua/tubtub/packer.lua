@@ -26,7 +26,9 @@ return require('packer').startup(function(use)
   use("mbbill/undotree")
   use("tpope/vim-fugitive")
 
-  use("rose-pine/neovim")
+    -- Theme
+  -- use("rose-pine/neovim")
+    use 'sainnhe/gruvbox-material'
 
     use({
         "L3MON4D3/LuaSnip",
