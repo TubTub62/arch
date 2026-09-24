@@ -64,7 +64,7 @@ vim.api.nvim_create_autocmd("FileType", {
 
 
 vim.lsp.enable({
-	"lualsp",
+	"lua_ls",
 	"hls",
     	"pyright",
     	"clangd",
