@@ -1,0 +1,8 @@
+\AppData\Roaming\Microsoft\Windows\Themes\CachedFiles
+find transcodedwallpaper
+
+
+C:\Users\tobia\AppData\Roaming\Microsoft\Windows\Themes
+
+
+copy and rename to *.png
